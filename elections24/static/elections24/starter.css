@@ -1,0 +1,15 @@
+/* base css */
+
+body {
+  padding-top: 50px;
+}
+
+#votex {
+  width: 300px;
+  height: 300px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
