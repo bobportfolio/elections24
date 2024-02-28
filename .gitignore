@@ -154,3 +154,6 @@ cython_debug/
 
 # Visual Studio
 .vscode/
+
+# Fixtures
+*/fixtures

@@ -4,9 +4,13 @@ body {
   padding-top: 50px;
 }
 
+.banner {
+  padding-bottom: 32px;
+}
+
 #votex {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
 }
 
 .starter-template {

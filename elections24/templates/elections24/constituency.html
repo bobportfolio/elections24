@@ -1,0 +1,14 @@
+{% extends 'elections24/base.html' %}
+
+{% block title %} {{ constituency.name }} {% endblock %}
+
+{% block content %}
+<table border="1">
+    <tr><td>field</td><td>value</td></tr>
+    <tr><td>id</td><td>{{ constituency.id }}</td></tr>
+    <tr><td>name</td><td>{{ constituency.name }}</td></tr>
+    <tr><td>gss</td><td>{{ constituency.gss_code }}</td></tr>
+    <tr><td>region</td><td>{{ constituency.region }}</td></tr>
+    <tr><td>electorate</td><td>{{ constituency.electorate }}</td></tr>
+</table>
+{% endblock %}

@@ -21,7 +21,21 @@
     <body>
         {% bootstrap_messages %}
 
-        {# Page Contents #}
+        {# Banner #}
+        <div class="container banner">
+            <a href="{% url 'index' %}">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img id="votex" src="{% static 'elections24/images/vote.svg' %}" alt="Vote X"/>
+                    </div>
+                    <div class="col-md-3">
+                        <h1>elections 24</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+         {# Page Contents #}
         <div class="container">
             {% for message in messages %}
                 <div class="alert alert-info">
@@ -35,14 +49,7 @@
             {% endblock %}
         </div>
         
-        {# Banner #}
-        <div class="container">
-            <div class="row" style="padding:10px">
-                <img id="votex" src="{% static 'elections24/images/vote.svg' %}" alt="Vote X"/>
-                <div class="col-md-5"><h1>elections 24</h1></div>
-            </div>
-        </div>
-
+       
         {# Footer #}
         <br><hr>
         <div id="footer" class="container" style="text-align: center;font-size:14px">
